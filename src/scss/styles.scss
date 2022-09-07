@@ -1,0 +1,37 @@
+// Custom.scss
+// Option A: Include all of Bootstrap
+
+// Include any default variable overrides here (though functions won't be available)
+$body-bg: #e8f6f7;
+$primary: #5a529b;
+$danger: #fe808e;
+
+@import '~bootstrap/scss/bootstrap';
+// @import url('https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css');
+
+// Then add additional custom code here
+
+// fondos: #e8f6f7
+// botones: #5a529b
+// destacados: #fe808e
+
+// #092A2F
+// #3A6B6F
+// #789DB0
+// #A0C2CE
+// #C6DEE8
+// #C5E7E8
+
+// #99A4CB
+// #879BD8
+// #8791D9
+
+// #C5B7E8
+// #C970FE
+// #FE709E
+// #FF90B5
+// #FE919F
+
+// #CEE8E9
+// #8791D8 #7A6FCD
+// #FF929F
