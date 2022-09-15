@@ -5,20 +5,28 @@ import HelloWorld from "./components/HelloWorld.vue";
 
 <template>
   <header>
-    <img
-      alt="Vue logo"
-      class="logo"
-      src="@/assets/logo.svg"
-      width="125"
-      height="125"
-    />
+    <img alt="Vue logo" class="logo rounded-circle" src="@/assets/img/logo.jpg" width="125" height="125" />
 
     <div class="wrapper">
-      <HelloWorld msg="You did it!" />
+      <!-- <HelloWorld msg="You did it!" /> -->
 
       <nav>
+        <!-- <div class="container-fluid">
+          <div class="collapse navbar-collapse">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <RouterLink to="/">Home</RouterLink>
+              </li>
+              <li class="nav-item">
+                <RouterLink to="/gallery">Gallery</RouterLink>
+              </li>
+            </ul>
+          </div>
+        </div> -->
         <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/about">About</RouterLink>
+        <!-- <RouterLink to="/about">About</RouterLink>
+        <RouterLink to="/summary">Summary Project</RouterLink> -->
+        <RouterLink to="/gallery">Gallery</RouterLink>
       </nav>
     </div>
   </header>
@@ -56,6 +64,7 @@ nav a {
   display: inline-block;
   padding: 0 1rem;
   border-left: 1px solid var(--color-border);
+  text-decoration: none;
 }
 
 nav a:first-of-type {
