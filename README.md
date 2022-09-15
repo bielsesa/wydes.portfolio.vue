@@ -11,3 +11,4 @@ If you are interested in commissioning her, you can do so accessing her [Carrd](
 - [Overlay embed bootstrap button in image](https://stackoverflow.com/questions/16615222/how-to-overlay-embed-bootstrap-button-on-image)
 - [CSS overlay button in image](https://www.w3schools.com/howto/howto_css_button_on_image.asp)
 - [Deploy Vite app with Github Actions](https://blog.codedbyjordan.com/deploying-a-vite-app-with-github-actions)
+- [Images and Vite (Video)](https://vueschool.io/lessons/images-and-vite)
